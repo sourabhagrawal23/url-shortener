@@ -14,7 +14,7 @@ URL Shortener is a free tool to shorten the size of a long URL. Use it to create
 ## Screenshots
 
 
-# Developed and Maintained by
+## Developed and Maintained by
 
 Sourabh Agrawal[:octocat:Github](http://github.com/sourabhagrawal23) | [Linkedin](https://www.linkedin.com/in/sourabhkhs/)
 
