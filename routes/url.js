@@ -59,6 +59,5 @@ router.post('/shorten', async (req, res) => {
     } else {
         return res.status(401).json('Invalid long url');
     }
-
 })
 module.exports = router;
