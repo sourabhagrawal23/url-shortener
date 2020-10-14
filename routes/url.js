@@ -18,6 +18,7 @@ router.post('/shorten', async (req, res) => {
     } = req.body;
     const baseUrl = config.get('baseUrl');
 
+    console.log("hi sourabh url is: " + req.body.longUrl);
     // Check base url
 
     if (!validUrl.isUri(baseUrl)) {
@@ -29,6 +30,8 @@ router.post('/shorten', async (req, res) => {
     const urlCode = shortid.generate();
 
     //check long url
+
+
 
     if (validUrl.isUri(longUrl)) {
         try {
@@ -57,7 +60,7 @@ router.post('/shorten', async (req, res) => {
             res.status(500).json('Server error')
         }
     } else {
-        return res.status(401).json('Invalid long url');
+        return res.status(401).json('here is the url sourabh: ' + longUrl);
     }
 })
 module.exports = router;
