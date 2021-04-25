@@ -1,7 +1,7 @@
 {
   "name": "url-shortener",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)\r <a href=\"https://github.com/sourabhagrawal23/url-shortener/\"><img src=\"https://img.shields.io/static/v1?label=&labelColor=505050&message=website&color=%230076D6&style=flat&logo=google-chrome&logoColor=%230076D6\" alt=\"website\"/></a>\r <img src=\"https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99\" alt=\"Star Badge\"/>",
   "main": "index.js",
   "scripts": {
     "start": "node index",
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "config": "^3.3.1",
+    "create-react-app": "^4.0.3",
     "express": "^4.17.1",
     "mongoose": "^5.10.6",
     "shortid": "^2.2.15",
@@ -18,5 +19,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourabhagrawal23/url-shortener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sourabhagrawal23/url-shortener/issues"
+  },
+  "homepage": "https://github.com/sourabhagrawal23/url-shortener#readme"
 }
