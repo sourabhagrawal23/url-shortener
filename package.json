@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index"
+    "dev": "nodemon index",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "config": "^3.3.1",
+    "cors": "^2.8.5",
     "create-react-app": "^4.0.3",
     "express": "^4.17.1",
     "mongoose": "^5.10.6",
