@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index",
     "dev": "nodemon index",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -20,7 +21,9 @@
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
   },
   "repository": {
     "type": "git",
@@ -29,5 +32,5 @@
   "bugs": {
     "url": "https://github.com/sourabhagrawal23/url-shortener/issues"
   },
-  "homepage": "https://github.com/sourabhagrawal23/url-shortener#readme"
+  "homepage": "https://github.com/sourabhagrawal23/url-shortener/"
 }
