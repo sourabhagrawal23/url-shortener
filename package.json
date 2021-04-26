@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index",
-    "deploy": "npm run build && gh-pages -d dist",
-    "build": "webpack"
+    "dev": "nodemon index"
   },
   "author": "",
   "license": "ISC",
@@ -21,8 +19,7 @@
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4",
-    "webpack-cli": "^4.6.0"
+    "nodemon": "^2.0.4"
   },
   "repository": {
     "type": "git",
