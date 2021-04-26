@@ -12,7 +12,7 @@ URL Shortener is a free tool to shorten the size of a long URL. Use it to create
 3. Completely free Tool
 
 ## Screenshots
-
+<img src="https://github.com/sourabhagrawal23/url-shortener/blob/master/Screenshots/Shortener.png"/>
 
 ## Developed and Maintained by
 
