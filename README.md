@@ -11,7 +11,7 @@ URL Shortener is a free tool to shorten the size of a long URL. Use it to create
 2. No Login Required
 3. Completely free Tool
 
-## Screenshots
+## System Architecture
 <img src="https://github.com/sourabhagrawal23/url-shortener/blob/master/Screenshots/Shortener.png"/>
 
 ## Developed and Maintained by
