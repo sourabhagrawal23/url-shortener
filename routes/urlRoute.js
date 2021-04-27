@@ -7,7 +7,8 @@ const shortid = require('shortid')
 const config = require('config')
 
 
-const Url = require('../models/Url');
+// const Url = require('../models/Url');
+const Url = require('../models/url');
 
 
 // @route    POST /api/url/shorten
